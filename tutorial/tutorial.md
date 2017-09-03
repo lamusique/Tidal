@@ -376,10 +376,10 @@ If you give two numbers in parenthesis after an element in a pattern, then Tidal
 distribute the first number of sounds equally across the second number of steps:
 
 ```haskell
-d1 $ sound "can(5,8)"
+d1 $ sound "can(3,8)"
 ```
 
-But then, it isn't possible to distrute three elements equally across eight discrete steps, but the
+But then, it isn't possible to distribute three elements equally across eight discrete steps, but the
 algorithm does the best it can. The result is a slightly funky bell pattern. Try this one:
 
 ```haskell
